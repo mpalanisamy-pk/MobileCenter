@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CoreDataConstants.m"
 @import MobileCenter;
 @import MobileCenterAnalytics;
 @import MobileCenterCrashes;
@@ -25,6 +26,9 @@
                                                                                  [MSAnalytics class],
                                                                                  [MSCrashes class]
                                                                                  ]];
+    
+    MFLog(@"Application launched");
+    
     return YES;
 }
 
