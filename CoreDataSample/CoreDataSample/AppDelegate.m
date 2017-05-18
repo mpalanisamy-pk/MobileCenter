@@ -28,6 +28,7 @@
                                                                                  ]];
     
     MFLog(@"Application launched");
+    //
     
     return YES;
 }
