@@ -27,9 +27,6 @@
                                                                                  [MSCrashes class]
                                                                                  ]];
     
-    MFLog(@"Application launched");
-    //
-    
     return YES;
 }
 
